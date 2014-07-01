@@ -1,24 +1,24 @@
 {
-    "name": "MPlayer GUI",
-    "homepage": "",
-    "bugs": "",
+    "name": "MPlayer",
+    "homepage": "https://github.com/jcatumba/mplayer-gui",
+    "bugs": "https://github.com/jcatumba/mplayer-gui/issues",
     "repository":{
         "type": "git",
-        "url": ""
+        "url": "https://github.com/jcatumba/mplayer-gui"
     },
-    "license": "",
+    "license": "GPL 3.0",
     "main": "app://host/src/app/index.html",
     "version": "0.0.1",
     "window":{
-        "title": "Mplayer",
-        "icon": "src/app/images/icon.png",
+        "title": "MPlayer",
+        "icon": "src/app/img/icon.png",
         "toolbar": false,
         "frame": false,
         "width": 320,
         "height": 480,
         "min_width": 320,
         "min_height": 480,
-        "resizable": false,
+        "resizable": true,
         "position": "center"
     }
 }

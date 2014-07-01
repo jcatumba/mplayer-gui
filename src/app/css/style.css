@@ -1,12 +1,32 @@
 body{
-    background-color:#333;
-    margin:0;
-    width:100%;
-    height:100%;
+    background-color: #333;
+    margin: 0;
+    /*width:320px;
+    height:480px;*/
+    overflow: hidden;
 }
-h1{
-    color:#FFF;
+#titlebar{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 #files{
-    overflow:auto;
+    overflow: auto;
+    width: 260px;
+    height: 400px;
+    margin: 0 auto;
+    /*outline: solid;*/
+}
+#files li{
+    margin: 10px 0;
+    clear: both;
+}
+.icon{
+    margin-right: 5px;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    float: left;
 }
